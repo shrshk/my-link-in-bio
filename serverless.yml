@@ -1,0 +1,7 @@
+my-personal-blog:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    build:
+      env:
+        STAGE:${env.STAGE}
+    domain: "computersandtacos.com"
